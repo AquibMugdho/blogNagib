@@ -286,12 +286,6 @@ section {
           transform: translateX(0) scale(1);
 }
 
-.sec4 {
-  display: none;
-  -webkit-transform: translateX(0) scale(1);
-          transform: translateX(0) scale(1);
-}
-
 .active {
   display: block;
   -webkit-animation: scaleAnim 1s ease-in-out;
@@ -428,5 +422,38 @@ section {
 
 .moreblogs .blog .blog-text p:hover {
   color: var(--color-secondary);
+}
+
+.round-shape {
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  width: 65%;
+  height: 100%;
+  background-color: var(--color-secondary);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  /*clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);*/
+  -webkit-clip-path: circle(40% at 12% 11%);
+          clip-path: circle(40% at 12% 11%);
+}
+
+.contact-photo {
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  height: 400px;
+  width: 400px;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.contact-photo img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
 }
 /*# sourceMappingURL=home.css.map */

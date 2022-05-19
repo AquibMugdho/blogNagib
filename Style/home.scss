@@ -223,18 +223,14 @@ section{
 }
 
 .sec3{
+  
   display: none;
   transform: translateX(0) scale(1);
   
 
 }
 
-.sec4{
-  display: none;
-  transform: translateX(0) scale(1);
-  
 
-}
 
 
 
@@ -347,4 +343,31 @@ section{
 
 //contacts
 //profilecard
-
+.round-shape{
+  transition: all .4s ease-in-out;
+  width: 65%;
+  height: 100%;
+  background-color: var(--color-secondary);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  /*clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);*/
+  
+  clip-path: circle(40% at 12% 11%);
+}
+/*.contact-photo{
+  transition: all .4s ease-in-out;
+  height: 400px;
+  width: 400px;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  img{
+   height: 100%;
+   width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+}
+*/

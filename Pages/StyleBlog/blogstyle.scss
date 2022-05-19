@@ -65,7 +65,7 @@ body {
 cite {
   display: block;
   margin-bottom: 1rem;
-  font-size: 14px;
+  font-size: 2rem;
   text-transform: uppercase;
   letter-spacing: 2.5px;
 }
@@ -73,6 +73,7 @@ cite {
 a {
   text-decoration: none;
   color: inherit;
+  transition: var(--transition-delay);
   &:hover {
     color: $red;
   }
@@ -149,7 +150,7 @@ del.of:after {
   
   clip-path: circle(40% at 12% 11%);
 }
-.c1-shape{
+.round-shape{
   transition: all .4s ease-in-out;
   width: 65%;
   height: 100%;

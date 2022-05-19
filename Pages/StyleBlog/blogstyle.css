@@ -68,7 +68,7 @@ body {
 cite {
   display: block;
   margin-bottom: 1rem;
-  font-size: 14px;
+  font-size: 2rem;
   text-transform: uppercase;
   letter-spacing: 2.5px;
 }
@@ -76,6 +76,8 @@ cite {
 a {
   text-decoration: none;
   color: inherit;
+  -webkit-transition: var(--transition-delay);
+  transition: var(--transition-delay);
 }
 
 a:hover {
@@ -157,7 +159,7 @@ del.of:after {
           clip-path: circle(40% at 12% 11%);
 }
 
-.c1-shape {
+.round-shape {
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
   width: 65%;
