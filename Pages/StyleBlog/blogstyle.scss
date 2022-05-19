@@ -149,6 +149,19 @@ del.of:after {
   
   clip-path: circle(40% at 12% 11%);
 }
+.c1-shape{
+  transition: all .4s ease-in-out;
+  width: 65%;
+  height: 100%;
+  background-color: var(--color-secondary);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  /*clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);*/
+  
+  clip-path: circle(40% at 12% 11%);
+}
 
 //backbutton
 #back-btn{
