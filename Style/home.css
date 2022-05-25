@@ -439,21 +439,19 @@ section {
           clip-path: circle(40% at 12% 11%);
 }
 
-.contact-photo {
-  -webkit-transition: all .4s ease-in-out;
+/*.contact-photo{
   transition: all .4s ease-in-out;
   height: 400px;
   width: 400px;
   left: 0;
   top: 0;
   z-index: -1;
+  img{
+   height: 100%;
+   width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
 }
-
-.contact-photo img {
-  height: 100%;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  border-radius: 50%;
-}
+*/
 /*# sourceMappingURL=home.css.map */
